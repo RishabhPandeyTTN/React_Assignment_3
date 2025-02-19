@@ -1,0 +1,31 @@
+.dark{
+    background-color: black;
+    color: white;
+}
+
+#theme_box{
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: 3px;
+    width: 60%;
+    margin: 2px auto;
+    margin-bottom: 10px;
+    font-size: larger;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.themeBtn { 
+    font-size: larger;
+    padding: 5px 20px;
+    margin: 5px 0px;
+    cursor: pointer;
+    border-radius: 5px;
+    background-color: rgb(114, 197, 252);
+    border: 1px solid rgb(114, 197, 252);
+    color: white;
+    transition-duration: 200ms;
+}
+
+.themeBtn:hover{
+    scale:103%
+}
