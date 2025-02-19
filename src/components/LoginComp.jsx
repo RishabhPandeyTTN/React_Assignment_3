@@ -4,7 +4,7 @@ import UserProfile from "./UserProfile"
 import "./LoginCompStyles.css"
 
 const LoginComp = () => {
-    const { loginStatus, setLoginStatus, username, handleUsername, display, email, handleEmail, handleLogin } = useContext(LoginContext)
+    const { loginStatus, username, handleUsername, email, handleEmail, handleLogin } = useContext(LoginContext)
 
     const handleSubmit = (event)=>{
         event.preventDefault()
